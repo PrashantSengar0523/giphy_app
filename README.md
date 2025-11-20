@@ -1,16 +1,13 @@
 # test_app
 
-A new Flutter project.
+A Flutter app that fetches GIFs from Giphy API with support for **searching** and **pagination**.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Display trending GIFs from Giphy.  
+- Search GIFs by keyword.  
+- Infinite scroll / pagination support.  
+- Simple and responsive GridView layout.  
+- Built using **Flutter**, **GetX** for state management, and **Dio** for API calls.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
