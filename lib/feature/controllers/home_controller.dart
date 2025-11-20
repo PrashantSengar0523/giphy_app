@@ -66,7 +66,7 @@ class HomeController extends GetxController {
 
   void searchGifs(String query) {
     currentQuery = query;
-    fetchGifs(); // reset + reload
+    fetchGifs();
   }
 
 
