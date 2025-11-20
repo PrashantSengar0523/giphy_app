@@ -22,6 +22,7 @@ class HomeController extends GetxController {
   // Searching
   String currentQuery = "";
 
+
   Future<void> fetchGifs({bool isLoadMore = false}) async {
     try {
       if (isLoadMore) {
@@ -65,7 +66,7 @@ class HomeController extends GetxController {
 
   void searchGifs(String query) {
     currentQuery = query;
-    fetchGifs(); 
+    fetchGifs(); // reset + reload
   }
 
 

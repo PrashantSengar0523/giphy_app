@@ -28,10 +28,10 @@ class HomeView extends StatelessWidget {
             Expanded(
               child: Obx(() {
                 if (controller.isLoading.value) {
-                  Center(child: CircularProgressIndicator());
+                  return Center(child: CircularProgressIndicator());
                 }
                 if (controller.giphyData.isEmpty) {
-                  Center(child: Text("No Data"));
+                  return Center(child: Text("No Data"));
                 }
 
                 return NotificationListener<ScrollNotification>(
